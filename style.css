@@ -54,7 +54,7 @@ nav ul li a::after{
     position:absolute;
     left: 0;
     bottom: -6px;
-    transition: 5ms;
+    transition: 0.1s;
 }
 nav ul li a:hover::after{
     width: 100%;

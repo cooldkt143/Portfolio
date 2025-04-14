@@ -15,9 +15,13 @@ const Home = () => {
             at NIST University, Berhampur. With a strong foundation in programming languages like Java, Python, C, and 
             JavaScript, I love blending creativity and logic to build meaningful digital experiences.
             </p>
-            <button
-                className='mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 front-semibokd rounded-3xl bg-[#465697]'
-            >Contact Me!</button>
+            <a
+              href="#Contact"
+            >
+              <button
+                  className='mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 front-semibokd rounded-3xl bg-[#465697]'
+              >Contact Me!</button>
+            </a>
         </div>
         {/* <div><img className="w-2/5 px-12 md:w-2/5" src={avatarImg}></img></div> */}
     </div>

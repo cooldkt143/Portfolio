@@ -46,7 +46,7 @@ const Skills = () => {
             </div>
             <h1 className="text-2xl md:text-4xl text-white font-bold">Programming language :-</h1>
             <div className='flex flex-wrap md:w-4/6 gap-8 py-10'>
-                <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
+                <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
                     <FaPython color="#FF9900" size={50} />
                     <span className="text-white">
                     <h2 className="leading-tight">Python</h2>

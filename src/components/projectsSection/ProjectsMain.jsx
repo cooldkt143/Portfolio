@@ -2,6 +2,9 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import ayushImg from "../../assets/AYUSH1.png";
+import ghommakadsImg from "../../assets/Ghoomakkads.png";
+import legalImg from "../../assets/Legal.jpeg";
 
 const projects = [
   {
@@ -13,7 +16,7 @@ const projects = [
     and smart AI-guided discovery. It is not just learning—it is an 
     immersive, addictive journey into the world of healing herbs`,
     align: "right",
-    image: "../../public/AYUSH1.png",
+    image: ayushImg,
     link: "#",
   },
   {
@@ -25,7 +28,7 @@ const projects = [
     trips tailored just for you. Pack your bags, because unforgettable 
     journeys start here!`,
     align: "left",
-    image: "../../public/Ghoomakkads.png",
+    image: ghommakadsImg,
     link: "#",
   },
   {
@@ -37,7 +40,7 @@ const projects = [
     guides you through Indias legal maze with accuracy, speed, and simplicity. 
     Curious how it works? Let’s dive in!`,
     align: "right",
-    image: "../../public/Legal.jpeg",
+    image: legalImg,
     link: "#",
   },
 ];

@@ -1,20 +1,30 @@
-import Navbar from './component/navbar/navbar';
-import Home from './component/Home/home';
-import About from './component/About/about';
-import Projects from './component/Projects/Projects';
-import Footer from './component/Footer/Footer';
-import Skills from './component/Skills/Skills';
+import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
+import ContactMeMain from "./components/contactMeSection/ContactMeMain";
+import ExperienceMain from "./components/experienceSection/ExperienceMain";
+import FooterMain from "./components/footer/FooterMain";
+import HeroGradient from "./components/heroSection/HeroGradient";
+import HeroMain from "./components/heroSection/HeroMain";
+import NavbarMain from "./components/navbar/NavbarMain";
+import ProjectsMain from "./components/projectsSection/ProjectsMain";
+import SkillsMain from "./components/skillsSection/SkillsMain";
+import SubSkills from "./components/skillsSection/SubSkills";
+import SubHeroMain from "./components/subHeroSection/SubHeroMain";
 
 function App() {
   return (
-    <div className="bg-[#171d32] h-auto w-full overflow-hidden">
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Footer />
-    </div>
+    <main className="font-body text-white relative overflow-hidden">
+      <NavbarMain />
+      <HeroMain />
+      <HeroGradient />
+      <SubHeroMain />
+      <AboutMeMain />
+      <SkillsMain />
+      <SubSkills />
+      {/* <ExperienceMain /> */}
+      <ProjectsMain />
+      <ContactMeMain />
+      <FooterMain />
+    </main>
   );
 }
 
